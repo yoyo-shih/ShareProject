@@ -99,4 +99,18 @@
 <code>$ dotnet add package Microsoft.Azure.SignalR --version 1.21.0 </code> 
 
 
+## 單元測試
 
+> 新建一個NUnit單元測試專案
+<br/>
+<code>$ dotnet new nunit -n "MyConsoleTest" -o "MyConsoleTest"</code>
+<br/>
+
+> 加入方案
+<code>$ dotnet sln add .\MyConsoleTest\MyConsoleTest.csproj </code>
+<br/>
+
+> 加入參考
+<code>$ cd .\MyConsoleTest </code>
+<code>$ dotnet add reference .\MyConsole\MyConsole.csproj </code>
+<br/>
